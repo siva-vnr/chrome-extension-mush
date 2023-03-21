@@ -1,6 +1,6 @@
 {
-    "name": "Extension Boilerplate",
-    "description": "Starter code for chrome extension.",
+    "name": "crawler product",
+    "description": "download dovetail product",
     "version": "1.0.0",
     "manifest_version": 3,
     "permissions": [
@@ -11,7 +11,7 @@
         "service_worker": "background.js"
     },
     "action":{
-        "default_title": "Extension Boilerplate",
+        "default_title": "crawler product",
         "default_icon": "assets/icon.png"
     }
 }

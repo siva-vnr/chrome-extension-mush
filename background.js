@@ -3,10 +3,10 @@ init = (tab) => {
   chrome.scripting.executeScript(
     {
       target: {tabId: id, allFrames: true},
-      files: ['clientside.js']
+      files: ['jquery.min.js','clientside.js']
     }
   )
-  console.log(`Loading: ${url}`); 
+  console.log(`downloaded !`); 
 }
 
 chrome.action.onClicked.addListener(tab => { 
